@@ -2,6 +2,7 @@
   "name": "trato-tech",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@chakra-ui/system": "^2.3.0",
     "@chakra-ui/toast": "^4.0.0",
@@ -51,5 +52,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "axios": "axios/dist/axios.min.js"
+    }
   }
 }
